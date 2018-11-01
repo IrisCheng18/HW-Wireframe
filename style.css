@@ -1,0 +1,85 @@
+/* Wire Frame */
+ * { 
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    background: #777;
+    color: #777;
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  header {
+    background-color: #ebebeb;
+    padding: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  nav{
+    background-color: #ebebeb;
+    padding: 35px;
+    margin-bottom: 20px;
+  }
+
+  section {
+    float: left;
+    background-color: #ebebeb;
+    overflow: auto;
+    margin-bottom: 20px;
+    width: 495px; 
+    padding: 35px;
+  }
+
+  .article {
+    color: #ebebeb;
+    background-color: #777;
+    overflow: auto;
+    padding-top: 20px;
+    margin: 30px -25px -25px -25px;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #777;
+    background-color: #ebebeb;
+    margin: 15px 30px 10px 20px;
+    padding: 15px;
+  }
+
+  p {
+    color: #777;
+    background-color: #ebebeb;
+    margin: 0 30px 20px 20px;
+    padding: 15px;
+}
+
+  aside {
+    float: left;
+    overflow: auto;
+    background-color: #ebebeb;
+    width: 445px;
+    margin: 0 0 20px 20px;
+    padding: 35px;
+  }
+
+  .dummy {
+    visibility: hidden;
+    overflow: auto;
+    padding-top: 20px;
+    margin: 30px -25px -25px -25px;
+  }
+
+  footer {
+    clear: both;
+    color: #777;
+    background: #ebebeb;
+    padding: 35px;
+  }
+
+  
